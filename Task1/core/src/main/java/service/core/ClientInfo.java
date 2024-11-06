@@ -6,7 +6,7 @@ package service.core;
  * @author Rem
  *
  */
-public class ClientInfo {
+public class ClientInfo implements java.io.Serializable{
 	public static final char MALE				= 'M';
 	public static final char FEMALE				= 'F';
 	

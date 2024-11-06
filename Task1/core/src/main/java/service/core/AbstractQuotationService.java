@@ -2,7 +2,7 @@ package service.core;
 
 import java.util.Random;
 
-public abstract class AbstractQuotationService implements QuotationService {
+public abstract class AbstractQuotationService {
 	private int counter = 1000;
 	private Random random = new Random();
 	
